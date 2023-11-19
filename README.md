@@ -1,6 +1,8 @@
 # REQUERIMIENTOS TORNEO MMA
 
 ## Descripción:
+Se realiza un modelo básico de un torneo deportivo de mma, donde se tienen deportistas (peleadores), entrenadores, arbitros, encuentros deportivos y resultados.
+
 Deportistas:
 
 Edad Mínima:
@@ -12,6 +14,7 @@ Cada deportista pertenece a una categoría de peso específica. Esto asegura enf
 Historial de Desempeño:
 Se debe mantener un registro detallado del historial de cada deportista, incluyendo victorias, derrotas y empates. Esto no solo proporciona información valiosa para el torneo actual, sino que también contribuye al seguimiento y desarrollo a lo largo de la carrera del deportista.
 
+
 Entrenadores:
 
 Especialidad:
@@ -19,6 +22,7 @@ Cada entrenador tiene una especialidad específica, como Jiu-Jitsu, Boxeo, Muay 
 
 Asociación a un Equipo:
 Cada entrenador está asociado a un equipo en particular. Esta asociación puede afectar la dinámica de entrenamiento y promover la cohesión entre los deportistas y el entrenador.
+
 
 Árbitros:
 
@@ -28,6 +32,7 @@ Los árbitros deben tener al menos 3 años de experiencia en arbitraje. Esta exp
 Asignación a Encuentros:
 Cada encuentro deportivo debe tener asignado un árbitro. Esta asignación se realiza para garantizar que haya un control imparcial y efectivo durante el desarrollo de los combates.
 
+
 Encuentros Deportivos:
 
 Detalles del Encuentro:
@@ -35,6 +40,7 @@ Cada encuentro deportivo debe tener información detallada, incluyendo la fecha 
 Lista de Competidores:
 
 Se debe mantener una lista de los competidores involucrados en cada encuentro. Esto facilita la preparación y ejecución eficiente de los combates.
+
 
 Resultados:
 
@@ -48,7 +54,7 @@ Ronda y Tiempo:
 Además del resultado, se deben registrar la ronda en la que se produjo la victoria y el tiempo transcurrido. Esto ofrece detalles precisos sobre el desarrollo del combate.
 
 ## Instalación
-Ejecutar archivo: actividad1_tyson_bernard.js en la interfaz de Mongo shell o en las herramientas de gestion de bases de datos NoSQL MongoDB Compass y/o Studio 3T
+Ejecutar archivo: actividad1_tyson_bernard.js en la interfaz de comandos (CLI) Mongo shell o en las herramientas de gestion de bases de datos NoSQL MongoDB Compass y/o Studio 3T.
 
 ## Licencia
 MIT
