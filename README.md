@@ -1,7 +1,9 @@
-# REQUERIMIENTOS TORNEO MMA
+# REQUERIMIENTOS TORNEO MMA IBERO
+
+## Estudiantes: Tyson Bernard Villada - 10092917, Edwin Daza 100090581
 
 ## Descripción:
-Se realiza un modelo básico de un torneo deportivo de mma, donde se tienen deportistas (peleadores), entrenadores, arbitros, encuentros deportivos y resultados
+Se realiza un modelo básico de una base de datos en MongoDB de un torneo deportivo de mma, donde se tienen deportistas (peleadores), entrenadores, arbitros, encuentros deportivos y resultados.
 
 Deportistas:
 
