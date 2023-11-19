@@ -5,6 +5,8 @@
  * Estudiantes: 
  * Tyson Gilbert Bernard Villada - 100092917
  * Edwin Eduardo Daza Franco - 100090581
+ * 
+ * link: https://github.com/tbernardv/actividad1_db_avanc_iberoamericana/blob/main/actividad1_tyson_bernard.js
  */
 
 
@@ -196,6 +198,34 @@ db.resultados.insert([
 ]);
 
 print("Base de datos del torneo creada exitosamente.");
+
+/**
+ * Otras operaciones (CRUD)
+ */
+
+// Actualización del nombre del peleador Tyson Bernard
+db.deportistas.update(
+  { "nombre": "Tyson Bernard" },
+  { $set: { "nombre": "Tyson Bernard Villada" } }
+);
+
+// Inserción de un nuevo peleador Edwin Daza
+db.deportistas.insert({
+  "nombre": "Edwin Daza",
+  "edad": 38,
+  "categoria_peso": "Wélter",
+  "equipo": "New Team",
+  "record": { "victorias": 2, "derrotas": 5, "empates": 0 }
+});
+
+// Lista todos los deportistas (peleadores) de la base de datos
+db.deportistas.find();
+
+// Eliminación del peleador Wdwin Daza
+db.deportistas.remove({ "nombre": "Edwin Daza" });
+
+
+
 
 
 
