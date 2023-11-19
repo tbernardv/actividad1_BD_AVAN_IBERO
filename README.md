@@ -1,7 +1,7 @@
 # REQUERIMIENTOS TORNEO MMA
 
 ## Descripción:
-Se realiza un modelo básico de un torneo deportivo de mma, donde se tienen deportistas (peleadores), entrenadores, arbitros, encuentros deportivos y resultados.
+Se realiza un modelo básico de un torneo deportivo de mma, donde se tienen deportistas (peleadores), entrenadores, arbitros, encuentros deportivos y resultados
 
 Deportistas:
 
